@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Kashmir Gems — Authentic luxury jewelry from Kotli, Azad Kashmir. Handcrafted rings, bracelets, necklaces and more." />
+  <meta property="og:title" content="Kashmir Gems | Luxury Jewelry" />
+  <meta property="og:description" content="Handcrafted luxury gemstone jewelry from the heart of Azad Kashmir." />
+  <title>Kashmir Gems | Handcrafted Luxury Jewelry</title>
+  <link rel="stylesheet" href="styles.css" />
+  <!-- WhatsApp icon via Phosphor Icons CDN -->
+  <script src="https://unpkg.com/@phosphor-icons/web@2.1.1/src/index.js" defer></script>
+</head>
+<body>
+
+  <!-- ══ HEADER ══════════════════════════════════════════════ -->
+  <header id="topHeader">
+    <div class="nav-inner">
+      <a href="#" class="logo" aria-label="Kashmir Gems Home">
+        <div class="logo-icon">💎</div>
+        <div class="logo-text">
+          <span class="logo-name">Kashmir Gems</span>
+          <span class="logo-tagline">Kotli, Azad Kashmir</span>
+        </div>
+      </a>
+
+      <nav class="filter-bar" id="filterBar" aria-label="Category filters">
+        <button class="filter-btn active" data-category="all">All</button>
+        <button class="filter-btn" data-category="Rings">Rings</button>
+        <button class="filter-btn" data-category="Bracelets">Bracelets</button>
+        <button class="filter-btn" data-category="Necklaces">Necklaces</button>
+        <button class="filter-btn" data-category="Earrings">Earrings</button>
+      </nav>
+
+      <a href="https://www.instagram.com/kashmirgemsstore?igsh=d3NrcTIwNGZydzF6"
+         target="_blank" rel="noopener noreferrer"
+         style="color:var(--gold-light); font-size:1.4rem; display:flex; align-items:center;"
+         aria-label="Follow on Instagram">
+        <i class="ph ph-instagram-logo"></i>
+      </a>
+    </div>
+  </header>
+
+  <!-- ══ HERO ════════════════════════════════════════════════ -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <div class="hero-badge">✦ Established in Azad Kashmir ✦</div>
+      <h1 class="hero-title">
+        Where Stones<br><span>Tell Stories</span>
+      </h1>
+      <p class="hero-sub">Handcrafted luxury gemstone jewelry from the verdant valleys of Kashmir</p>
+      <a href="#collection" class="hero-cta">
+        <i class="ph ph-gem"></i> Explore Collection
+      </a>
+    </div>
+    <div class="scroll-indicator" aria-hidden="true">
+      <span>Scroll</span>
+      <i class="ph ph-caret-down"></i>
+    </div>
+  </section>
+
+  <!-- ══ TRUST STRIP ═════════════════════════════════════════ -->
+  <section class="trust-strip" aria-label="Why choose us">
+    <div class="trust-inner">
+      <div class="trust-item">
+        <span class="icon">🔐</span>
+        <h4>100% Authentic</h4>
+        <p>Every gem is certified and sourced directly from Kashmir's finest mines.</p>
+      </div>
+      <div class="trust-item">
+        <span class="icon">🚚</span>
+        <h4>Nationwide Delivery</h4>
+        <p>Fast, insured delivery to every corner of Pakistan.</p>
+      </div>
+      <div class="trust-item">
+        <span class="icon">💬</span>
+        <h4>Order via WhatsApp</h4>
+        <p>Instant confirmation and support through WhatsApp.</p>
+      </div>
+      <div class="trust-item">
+        <span class="icon">♻️</span>
+        <h4>Easy Returns</h4>
+        <p>7-day hassle-free return policy on every purchase.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ PRODUCTS SECTION ════════════════════════════════════ -->
+  <section class="products-section" id="collection" aria-labelledby="collectionTitle">
+    <div class="section-header">
+      <p class="section-label">✦ Curated for You ✦</p>
+      <h2 class="section-title" id="collectionTitle">Our Collection</h2>
+      <div class="gold-divider"></div>
+    </div>
+
+    <!-- Mobile category filter -->
+    <div style="display:flex; gap:0.5rem; flex-wrap:wrap; justify-content:center; margin-bottom:2rem;" class="mobile-filters" aria-label="Category filters">
+      <button class="filter-btn active" data-category="all">All</button>
+      <button class="filter-btn" data-category="Rings">Rings</button>
+      <button class="filter-btn" data-category="Bracelets">Bracelets</button>
+      <button class="filter-btn" data-category="Necklaces">Necklaces</button>
+      <button class="filter-btn" data-category="Earrings">Earrings</button>
+    </div>
+
+    <div class="products-grid" id="productsGrid" role="list" aria-live="polite">
+      <!-- JS will render cards here -->
+      <div class="skeleton" style="height:380px;"></div>
+      <div class="skeleton" style="height:380px;"></div>
+      <div class="skeleton" style="height:380px;"></div>
+      <div class="skeleton" style="height:380px;"></div>
+    </div>
+  </section>
+
+  <!-- ══ FOOTER ══════════════════════════════════════════════ -->
+  <footer id="siteFooter">
+    <p class="footer-logo">Kashmir Gems</p>
+    <p class="footer-tagline">Kotli, Azad Kashmir — Est. with Love</p>
+
+    <div class="footer-links">
+      <a href="https://wa.me/923498578805" target="_blank" rel="noopener noreferrer" aria-label="Contact on WhatsApp">
+        <i class="ph ph-whatsapp-logo"></i> WhatsApp
+      </a>
+      <a href="https://www.instagram.com/kashmirgemsstore?igsh=d3NrcTIwNGZydzF6" target="_blank" rel="noopener noreferrer" aria-label="Instagram profile">
+        <i class="ph ph-instagram-logo"></i> Instagram
+      </a>
+      <a href="tel:+923498578805" aria-label="Call us">
+        <i class="ph ph-phone"></i> +92 349 8578805
+      </a>
+    </div>
+
+    <hr class="footer-divider" />
+
+    <div class="footer-bottom">
+      <span>© 2024 Kashmir Gems. All rights reserved.</span>
+      <button class="admin-trigger" id="adminTrigger" title="Admin" aria-label="Open admin panel">⚙</button>
+      <span>Developed by SSS Developer | Contact: +923175587278</span>
+    </div>
+  </footer>
+
+  <!-- ══ FLOATING WHATSAPP BUTTON ════════════════════════════ -->
+  <a href="https://wa.me/923498578805"
+     class="float-wa"
+     target="_blank"
+     rel="noopener noreferrer"
+     aria-label="Chat with us on WhatsApp"
+     id="floatWa">
+    <i class="ph ph-whatsapp-logo"></i>
+  </a>
+
+  <!-- ══ BUY NOW MODAL ═══════════════════════════════════════ -->
+  <div class="modal-overlay" id="buyModal" role="dialog" aria-modal="true" aria-labelledby="buyModalTitle">
+    <div class="modal">
+      <div class="modal-header">
+        <div>
+          <h2 class="modal-title" id="buyModalTitle">Complete Order</h2>
+          <p class="modal-subtitle">We'll connect you via WhatsApp 💬</p>
+        </div>
+        <button class="modal-close" id="buyModalClose" aria-label="Close">&times;</button>
+      </div>
+
+      <div class="modal-product-preview" id="modalProductPreview" aria-live="polite">
+        <img id="modalProductImg" src="" alt="" />
+        <div class="modal-product-info">
+          <div class="name" id="modalProductName"></div>
+          <div class="price" id="modalProductPrice"></div>
+        </div>
+      </div>
+
+      <form id="orderForm" novalidate>
+        <div class="field">
+          <label for="customerName">Your Full Name *</label>
+          <input type="text" id="customerName" placeholder="e.g. Aisha Khan" required autocomplete="name" />
+        </div>
+        <div class="field">
+          <label for="customerPhone">Phone Number *</label>
+          <input type="tel" id="customerPhone" placeholder="e.g. 0300-1234567" required autocomplete="tel" />
+        </div>
+        <div class="field">
+          <label for="customerAddress">Delivery Address *</label>
+          <textarea id="customerAddress" placeholder="House #, Street, City, Province" required></textarea>
+        </div>
+        <button type="submit" class="wa-submit-btn" id="waSubmitBtn">
+          <i class="ph ph-whatsapp-logo"></i>
+          Order via WhatsApp
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- ══ ADMIN PASSWORD MODAL ════════════════════════════════ -->
+  <div class="modal-overlay" id="passOverlay" role="dialog" aria-modal="true" aria-labelledby="passTitle">
+    <div class="pass-modal">
+      <h3 id="passTitle">🔐 Admin Access</h3>
+      <p>Enter the admin password to continue.</p>
+      <input type="password" id="adminPassInput" maxlength="10" placeholder="••••" autocomplete="current-password" />
+      <button class="pass-confirm-btn" id="passConfirmBtn">Unlock</button>
+    </div>
+  </div>
+
+  <!-- ══ ADMIN PANEL ═════════════════════════════════════════ -->
+  <div class="admin-overlay" id="adminOverlay" role="dialog" aria-modal="true" aria-labelledby="adminTitle">
+    <div class="admin-panel">
+      <div class="admin-header">
+        <h2 class="admin-title" id="adminTitle">⚙ Add New Product</h2>
+        <button class="admin-close" id="adminClose" aria-label="Close admin panel">&times;</button>
+      </div>
+
+      <form id="adminForm" novalidate>
+        <div class="field">
+          <label for="adminName">Product Name *</label>
+          <input type="text" id="adminName" placeholder="e.g. Sapphire Drop Ring" required />
+        </div>
+        <div class="field">
+          <label for="adminPrice">Price (PKR) *</label>
+          <input type="number" id="adminPrice" placeholder="e.g. 14500" min="0" required />
+        </div>
+        <div class="field">
+          <label for="adminCategory">Category *</label>
+          <select id="adminCategory" required>
+            <option value="">— Select Category —</option>
+            <option value="Rings">Rings</option>
+            <option value="Bracelets">Bracelets</option>
+            <option value="Necklaces">Necklaces</option>
+            <option value="Earrings">Earrings</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="adminDescription">Description</label>
+          <textarea id="adminDescription" placeholder="Brief product description…"></textarea>
+        </div>
+        <div class="field">
+          <label for="adminImage">Product Photo *</label>
+          <input type="file" id="adminImage" accept="image/*" required />
+          <img id="adminImgPreview" class="img-preview" alt="Preview" />
+        </div>
+        <button type="submit" class="admin-submit-btn" id="adminSubmitBtn">
+          <i class="ph ph-plus-circle"></i> Add Product
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- ══ TOAST NOTIFICATION ════════════════════════════════════ -->
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>

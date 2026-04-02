@@ -1,0 +1,16 @@
+{
+  "name": "kashmir-gems",
+  "version": "1.0.0",
+  "description": "Kashmir Gems – Luxury Jewelry E-Commerce (JAMstack + Vercel Serverless)",
+  "private": true,
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "@octokit/rest": "^20.0.0"
+  },
+  "engines": {
+    "node": ">=18.x"
+  }
+}
