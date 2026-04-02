@@ -1,0 +1,34 @@
+[
+  {
+    "id": "prod_001",
+    "name": "Royal Sapphire Ring",
+    "price": 18500,
+    "category": "Rings",
+    "description": "An exquisite hand-crafted sterling silver ring set with a vibrant Kashmir sapphire. A timeless piece of elegance.",
+    "image": "https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=600&q=80"
+  },
+  {
+    "id": "prod_002",
+    "name": "Emerald Gold Bracelet",
+    "price": 32000,
+    "category": "Bracelets",
+    "description": "A stunning 22K gold bracelet adorned with hand-picked natural emeralds, crafted by master artisans of Azad Kashmir.",
+    "image": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=600&q=80"
+  },
+  {
+    "id": "prod_003",
+    "name": "Pearl Cascade Necklace",
+    "price": 27500,
+    "category": "Necklaces",
+    "description": "A graceful cascade of freshwater pearls accented with 18K gold fittings. Elegance in every bead.",
+    "image": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=600&q=80"
+  },
+  {
+    "id": "prod_004",
+    "name": "Ruby Blossom Earrings",
+    "price": 14200,
+    "category": "Earrings",
+    "description": "Delicate gold earrings featuring natural rubies shaped into a blooming flower – a symbol of Kashmiri craftsmanship.",
+    "image": "https://images.unsplash.com/photo-1630019852942-f89202989a59?w=600&q=80"
+  }
+]
